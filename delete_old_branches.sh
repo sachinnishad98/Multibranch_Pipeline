@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the age threshold (15 days in seconds: 15 days * 24 hours * 60 minutes * 60 seconds)
-age_threshold=$((1 * 24 * 60 * 60))
+age_threshold=$((15 * 24 * 60 * 60))
 
 # Get the current date in seconds since the epoch
 current_date=$(date +%s)
