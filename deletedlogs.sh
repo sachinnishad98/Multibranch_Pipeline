@@ -4,7 +4,7 @@
 current_date=$(date +%s)
 
 # Calculate the timestamp for 30 days ago
-thirty_days_ago=$((current_date - 1 * 24 * 60 * 60))  # 30 days in seconds
+thirty_days_ago=$((current_date - 0 * 24 * 60 * 60))  # 30 days in seconds
 
 # File to store the logs
 log_file="deleted_branches.log"
